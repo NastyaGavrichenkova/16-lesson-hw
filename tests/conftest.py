@@ -22,7 +22,7 @@ def window_size_mobile():
     browser.config.window_height = 844
 
 
-"""Fixture for test_parametrize"""
+"""Fixture for test_parametrize and test_skip"""
 
 
 @pytest.fixture(params=['desktop', 'mobile'])
